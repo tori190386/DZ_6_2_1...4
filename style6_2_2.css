@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.wrap {
+    margin: 30px;
+}
+
+h1 {
+    margin: 30px 0 20px;
+}
+
+
+/*задание 6.2.2*/
+
+.two table {
+    padding: 0 20px;
+    width: 800px;
+    background:  #FCFCFC; /* Цвет фона таблицы */
+    border-spacing: 0; /* Расстояние между ячеек */
+    text-align: left;
+    font-size: 14px;
+    font-family: Arial, Tahoma sans-serif;
+}
+
+.two tr, td, th {
+    padding: 15px; /* Поля в ячейках */
+}
+
+.two th {
+    border-bottom: 2px solid  #DCDCDC;
+    font-weight: bold;
+}
+
+/*задание 6.2.3*/
+
+.three table {
+    padding: 0 20px 10px;
+    width: 800px;
+    background:  #FCFCFC; /* Цвет фона таблицы */
+    border-spacing: 0; /* Расстояние между ячеек */
+    text-align: left;
+    font-size: 14px;
+    font-family: Arial, Tahoma sans-serif;
+}
+
+.three tr, td, th {
+    padding: 15px; /* Поля в ячейках */
+}
+
+.three th {
+    border-bottom: 2px solid  #DCDCDC;
+}
+
+.three td {
+    border-bottom: 2px solid  #DCDCDC;
+}
+
+.three thead th {
+    font-weight: bold;
+}
+

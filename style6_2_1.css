@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.wrap {
+    margin: 30px;
+}
+
+h1 {
+    margin: 30px 0 20px;
+}
+
+/*задание 6.2.1*/
+
+.one table {
+    border-collapse: collapse;/* Отображать двойные линии как одинарные */
+    text-align: center;
+    font-size: 12px;
+}
+
+.one td, tr, th {
+     border: 1px solid black; /* Параметры границы */
+     padding: 5px; /* Поля в ячейках */
+    }
+
+.one thead tr:first-child {
+    font-weight: bold;
+}
+
+.one tbody td:nth-child(1) {
+    text-align: left;
+    font-size: 14px;
+}
+
+.one tfoot td:nth-child(1) {
+    text-align: left;
+    font-size: 14px;
+}
+
